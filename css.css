@@ -1,0 +1,47 @@
+body {
+    border-style: double;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+}
+
+#foo {
+    color: darkmagenta;
+    text-align: center;
+    height: 100px;
+}
+
+.start {
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px;
+}
+
+img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+table {
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+@media screen and (min-width:700px) {
+    body {
+        background-color: brown;
+    }
+}
